@@ -1,0 +1,12 @@
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (1, '계획을 세울 때 나는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (2, '한 장소에서 다른 장소로 이동할 때 나는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (3, '내가 원하는 여행 스타일은?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (4, '멋진 풍경이 내 눈 앞에 펼쳐졌을 때 나는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (5, '가려고 했던 식당이 문을 닫았을 때 나는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (6, '내가 더 많은 시간을 보내고 싶은 곳은?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (7, '일행과 서로 가고 싶은 곳이 다를 때는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (8, '다른 사람들이 말을 걸어왔을 때 나는??' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (9, '방문한 장소가 마음에 들 때 나는?' );
+INSERT INTO QUESTION (QNA_NO, QNA_Q) values (10, '이번 여행에서 방문할 장소를 선택할 때 나는?' );
+
+COMMIT;
