@@ -1,5 +1,7 @@
 package co.yg.travel.answer.service;
 
-public interface AnswerService {
+import java.util.List;
 
+public interface AnswerService {
+	List<AnswerVO> answerList();
 }
