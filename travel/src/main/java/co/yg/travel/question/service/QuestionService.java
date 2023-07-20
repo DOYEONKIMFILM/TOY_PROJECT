@@ -1,5 +1,7 @@
 package co.yg.travel.question.service;
 
-public interface QuestionService {
+import java.util.List;
 
+public interface QuestionService {
+	List<QuestionVO> selectQuestion();
 }
