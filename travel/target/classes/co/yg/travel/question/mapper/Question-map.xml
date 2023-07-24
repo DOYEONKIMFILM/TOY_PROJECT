@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="QuestionMapper">
-	<select id="selectQuestion" resultType="egovMap">
+
+	<select id="selectQuestion" parameterType="int" resultType="questionVO">
 		SELECT QNA_Q
 		FROM QUESTION
-		WHERE QNA_NO = #{qnaNo}
+		WHERE QNA_NO = 1
 	</select>
 </mapper>

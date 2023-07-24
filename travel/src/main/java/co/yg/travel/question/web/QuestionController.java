@@ -20,7 +20,7 @@ public class QuestionController {
 	public String question(Model model) {
 		List<QuestionVO> list = questionService.selectQuestion();
 		model.addAttribute("question", list);
-
+		System.out.print("test test =========================================test" + list.get(0).getQnaQ());
 		return "question/question";
 	}
 }
